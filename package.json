@@ -1,7 +1,7 @@
 {
   "name": "svdesignti-coreui-vue-acl",
   "description": "CoreUI Vue Components + Vue ACL",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "main": "dist/coreui-vue.common.js",
   "module": "dist/coreui-vue.esm.js",
