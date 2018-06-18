@@ -1,9 +1,11 @@
-# @coreui/vue + Vue ACL
+# @coreui/vue
 
-[![Npm badge](https://img.shields.io/npm/v/svdesignti-coreui-vue-acl.svg)][npm]
+[![Npm badge](https://img.shields.io/npm/v/@coreui/vue.svg)][npm]
+![Rollup badge](https://img.shields.io/badge/Rollup-^0.53.3-ff69b4.svg)
+![Jest](https://img.shields.io/badge/Jest-^22.0.4-blue.svg)
 ![Vue](https://img.shields.io/badge/Vue-^2.5.13-brightgreen.svg)
 
-[npm]: https://www.npmjs.com/package/svdesignti-coreui-vue-acl
+[npm]: https://www.npmjs.com/package/@coreui/vue
 
 > A [@coreui/vue](https://coreui.io/vue) `v2` library project
 
@@ -11,18 +13,18 @@ for use with [CoreUI](https://coreui.io/vue/) `v2` Open Source Bootstrap Admin T
 
 ## Installation
 ```
-npm install svdesignti-coreui-vue-acl
+npm install @coreui/vue
 ```
-svdesignti-coreui-vue-acl can be used as a module in both CommonJS and ES modular environments.
+@coreui/vue can be used as a module in both CommonJS and ES modular environments.
 
-When in non-modular environment, svdesignti-coreui-vue-acl will register all the components to vue by itself.</p>
+When in non-modular environment, @coreui/vue will register all the components to vue by itself.</p>
 
 ### ES6 
 ```js
 //
 // You can register a component manually
 //
-import { Switch } from 'svdesignti-coreui-vue-acl';
+import { Switch } from '@coreui/vue';
 
 export default {
   ...
@@ -35,7 +37,7 @@ export default {
 //
 // or register the whole module with vue
 //
-import ModuleLibrary from 'svdesignti-coreui-vue-acl';
+import ModuleLibrary from '@coreui/vue';
 
 // Install this library
 Vue.use(ModuleLibrary);

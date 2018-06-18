@@ -1,7 +1,7 @@
 {
   "name": "svdesignti-coreui-vue-acl",
-  "description": "CoreUI Vue Components + Vue ACL",
-  "version": "1.0.3",
+  "description": "CoreUI Vue Bootstrap 4 layout components",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/coreui-vue.common.js",
   "module": "dist/coreui-vue.esm.js",
@@ -9,25 +9,25 @@
     "src",
     "dist/*.js"
   ],
-  "homepage": "https://www.npmjs.com/package/svdesignti-coreui-vue-acl",
+  "homepage": "https://coreui.io",
   "author": {
-    "name": "Amandio Magalhaes",
-    "url": "https://svdesignti.com.br",
-    "github": "https://github.com/amandiobm",
-    "twitter": "https://twitter.com/amandiozyxel"
+    "name": "Łukasz Holeczek",
+    "url": "http://holeczek.pl",
+    "github": "https://github.com/mrholek",
+    "twitter": "https://twitter.com/lukaszholeczek"
   },
   "contributors": [
     {
-      "name": "Amandio Magalhaes",
-      "url": "https://github.com/amandiobm"
+      "name": "Andrzej Kopański",
+      "url": "https://github.com/xidedix"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/amandiobm/coreui-vue"
+    "url": "https://github.com/coreui/coreui-vue.git"
   },
   "bugs": {
-    "url": "https://github.com/amandiobm/coreui-vue/issues"
+    "url": "https://github.com/coreui/coreui-vue/issues"
   },
   "keywords": [
     "coreui",
