@@ -11,6 +11,7 @@ before_deploy:
   - npm run build
 
 deploy:
+  skip_cleanup: true
   provider: npm
   email: "amandio.magalhaes@gmail.com"
   api_key: "a8db55ad-1a42-487c-857b-496365b76432"
