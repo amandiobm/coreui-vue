@@ -1,5 +1,5 @@
 <template>
-  <li :class="classList" @click="hideMobile">
+  <li :class="classList" @click="hideMobile" v-show='$can(getAcl)'>
     <slot></slot>
   </li>
 </template>
@@ -11,6 +11,10 @@ export default {
     classes: {
       type: String,
       default: ''
+    },
+    acl: {
+      type: String,
+      default: 'public'
     }
   },
   computed: {
@@ -22,6 +26,9 @@ export default {
     },
     itemClasses () {
       return this.classes ? this.classes.split(' ') : ''
+    },
+    getAcl() {
+      return this.acl
     }
   },
   methods: {

@@ -1,4 +1,4 @@
-# @coreui/vue 
+# @coreui/vue
 
 [![Npm badge](https://img.shields.io/npm/v/@coreui/vue.svg)][npm]
 ![Rollup badge](https://img.shields.io/badge/Rollup-^0.53.3-ff69b4.svg)

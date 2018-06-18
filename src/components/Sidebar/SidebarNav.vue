@@ -26,7 +26,7 @@
                   </SidebarNavDropdown>
                 </template>
                 <template v-else>
-                  <SidebarNavItem :key="index1" :classes="item.class">
+                  <SidebarNavItem :key="index1" :classes="item.class" :acl="item.acl">
                     <SidebarNavLink :name="childL1.name" :url="childL1.url" :icon="childL1.icon" :badge="childL1.badge" :variant="item.variant"/>
                   </SidebarNavItem>
                 </template>
@@ -34,7 +34,7 @@
             </SidebarNavDropdown>
           </template>
           <template v-else>
-            <SidebarNavItem :key="index" :classes="item.class">
+            <SidebarNavItem :key="index" :classes="item.class" :acl="item.acl">
               <SidebarNavLink :name="item.name" :url="item.url" :icon="item.icon" :badge="item.badge" :variant="item.variant"/>
             </SidebarNavItem>
           </template>
